@@ -20,7 +20,7 @@ export default class FavStories extends React.Component {
 
 		return (
 			<div className={'FavStories'}>
-				<h2>{'My Favorite Stores'}</h2>
+				<h2>{'My Favorite Stories'}</h2>
 				<ul>
 					{favs}
 				</ul>

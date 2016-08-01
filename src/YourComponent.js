@@ -26,7 +26,7 @@ export default class YourComponent extends Component {
     });    
 
     if (!existsInFavs) {
-      if (confirm('Are ypu sure you want to add this storie?')) {
+      if (confirm('Are ypu sure you want to add this story?')) {
         this.state.favStories.push(markerData);
 
         this.setState({
@@ -38,7 +38,7 @@ export default class YourComponent extends Component {
   }
 
   _onClickFav(favData) {
-    if (confirm('Are ypu sure you want to remove this storie?')) {
+    if (confirm('Are ypu sure you want to remove this story?')) {
       let indexToRemove = 0;
 
       this.state.favStories.forEach((element, index) => {
